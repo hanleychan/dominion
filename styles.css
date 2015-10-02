@@ -1,0 +1,36 @@
+body {
+	margin-left:20px;
+	background-color:#ffffff;
+	overflow:auto;
+}
+
+p.drawNewCards {
+	color:blue;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-top:0px;
+	cursor:default;
+}
+
+div#mainContent {
+	margin-top:10px;
+	width: 340px;
+}
+
+p#cards {
+	margin-left:10px;
+	margin-top:0px;
+	float:left;
+	width:150px;
+	cursor:default;
+}
+
+p#cardDescription {
+	float:left;
+	margin-top:0px;
+	border-width:1px;
+	border-style:solid;
+	min-height:190px;
+	padding:5px;
+	width:160px;
+}

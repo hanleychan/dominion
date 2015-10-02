@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>	
+		<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+		<meta name = "author" content = "Hanley Chan" />
+		<meta name = "description" content = "Simple Dominion Kingdom Card Generator" />
+		<meta name = "generator" content = "editplus" />
+		<title>Dominion Kingdom Card Generator</title>
+		<script type="text/javascript" src="cards.js"></script>
+	</head>
+
+	<body>
+		<h1>Dominion Kingdom Card Generator</h1>
+		<p class="drawNewCards">
+			<img src="draw10.png" alt="draw 10" onclick="update(10)" />
+			<img src="draw1.png" alt="draw 1" onclick="update(1)" />
+		</p>
+		<div id="mainContent">
+			<noscript>
+				<p>JavaScript is not enabled</p>
+			</noscript>
+			<p id="cards">
+				<script type="text/javascript">
+					<!--
+						var chosenCards=randomCards(10);
+						displayCards(chosenCards);
+					-->
+				</script>
+			</p>
+			<p id="cardDescription">
+				<script type="text/javascript">
+					<!--
+						document.write("Click on a card to view details");
+					-->
+				</script>
+			</p>
+		</div>
+	</body>
+</html>
